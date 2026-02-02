@@ -10,7 +10,7 @@ Lua言語 + Love2Dフレームワークでゲームを作るために学んだ�
 
 ## Hello Worldを表示する
 
-**main.lua**
+**hello-world/main.lua**
 ```lua
 function love.draw()
     love.graphics.print("Hello World", 0, 0)
@@ -19,8 +19,8 @@ end
 
 ## batファイルを作って快適に
 
-Windows上で開発やファイル出力を楽にするバッチファイルを作りました。
+各フォルダにはWindows上で開発やファイル出力を楽にするバッチファイルが入っています。
 
-- [_package-as-love.bat](_package-as-love.bat) : 叩くと自動でフォルダ内のファイルをmain.loveにまとめます
-- [_love-to-exe.bat](_love-to-exe.bat) : love.exeと.loveを結合し、Love2D無しの環境でも叩けば起動するmain.exeを作ります
-- [_debug.bat](_debug.bat) : デバッグ画面を出した状態でmain.luaを起動します
+- _package-as-love.bat : 叩くと自動でフォルダ内のファイルをmain.loveにまとめます
+- _love-to-exe.bat : love.exeと.loveを結合し、Love2D無しの環境でも叩けば起動するmain.exeを作ります
+- _debug.bat : デバッグ画面を出した状態でmain.luaを起動します
