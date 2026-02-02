@@ -10,14 +10,14 @@ Lua言語 + Love2Dフレームワークでゲームを作るために学んだ�
 
 ## Hello Worldを表示する
 
-**hello-world/main.lua**
+**[hello-world/main.lua](hello-world/main.lua)**
 ```lua
 function love.draw()
     love.graphics.print("Hello World!", 0, 0)
 end
 ```
 
-## batファイルを作って快適に
+## batファイルを作って快適にする
 
 各フォルダには開発やファイル出力を楽にするバッチファイルが入っています。
 
