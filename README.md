@@ -8,6 +8,15 @@ Lua言語 + Love2Dフレームワークでゲームを作るために学んだ�
 - love.exeとloveファイルを結合する事で、Love2DがインストールされていないWindows環境でもダブルクリックすれば動くexeファイルにする事ができる。
 - こういった処理は毎回コマンドプロンプトで行わず、bat化してしまうと便利である。
 
+## Hello Worldを表示する
+
+**main.lua**
+```lua
+function love.draw()
+    love.graphics.print("Hello World", 0, 0)
+end
+```
+
 ## batファイルを作って快適に
 
 Windows上で開発やファイル出力を楽にするバッチファイルを作りました。
