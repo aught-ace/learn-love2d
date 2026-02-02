@@ -21,6 +21,6 @@ end
 
 Windows上で開発やファイル出力を楽にするバッチファイルを作りました。
 
-- [_package-as-love.bat](_package-as-love.bat) : 叩くと自動でフォルダ内のファイルをmain.loveにまとめます。
-- [_love-to-exe.bat](_love-to-exe.bat) : love.exeと.loveを結合し、Love2D無しの環境でも叩けば起動するmain.exeを作ります。
-- [_debug.bat](_debug.bat) : デバッグ画面を出した状態でmain.luaを起動
+- [_package-as-love.bat](_package-as-love.bat) : 叩くと自動でフォルダ内のファイルをmain.loveにまとめます
+- [_love-to-exe.bat](_love-to-exe.bat) : love.exeと.loveを結合し、Love2D無しの環境でも叩けば起動するmain.exeを作ります
+- [_debug.bat](_debug.bat) : デバッグ画面を出した状態でmain.luaを起動します
