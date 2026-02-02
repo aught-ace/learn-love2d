@@ -1,6 +1,5 @@
 @echo off
 setlocal
-set LOVE_PATH=C:\Program Files\LOVE\love.exe
 set LOVE_NAME=main.love
 
 if exist %LOVE_NAME% del %LOVE_NAME%
