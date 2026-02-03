@@ -1,6 +1,6 @@
 # Love2Dを学んだノート
 
-Lua言語でゲームを作れる[Love2D (LÖVE)](https://love2d.org/)フレームワークを学んだノート。
+Lua言語でゲームを作れる[Love2D (LÖVE)](https://love2d.org/)フレームワークに入門した時のノート。
 
 
 
